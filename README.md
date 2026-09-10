@@ -74,7 +74,7 @@ KodarosLanding/
 
 ### Autor
 
-**Kelvin Oliveira** — fundador do ecossistema KODAROS · [GitHub](https://github.com/KelvinOliveiraCode) · [LinkedIn](https://www.linkedin.com/in/kelvin-oliveira-0282033b4/)
+**Kelvin Oliveira** — fundador do ecossistema KODAROS · [GitHub](https://github.com/KelvinOliveiraCode) · [LinkedIn](https://www.linkedin.com/in/kelvin-oliveira-code/)
 
 ---
 
@@ -116,4 +116,4 @@ Questions adapt to the declared profile; the result combines answers, delivers a
 
 ### Author
 
-**Kelvin Oliveira** — KODAROS ecosystem founder · [GitHub](https://github.com/KelvinOliveiraCode) · [LinkedIn](https://www.linkedin.com/in/kelvin-oliveira-0282033b4/)
+**Kelvin Oliveira** — KODAROS ecosystem founder · [GitHub](https://github.com/KelvinOliveiraCode) · [LinkedIn](https://www.linkedin.com/in/kelvin-oliveira-code/)
