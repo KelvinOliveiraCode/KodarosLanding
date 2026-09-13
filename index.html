@@ -223,6 +223,8 @@ body::after{content:"";position:fixed;inset:0;background:linear-gradient(180deg,
 .spec-side img{width:200px;border:1px solid var(--hairline-strong)}
 .spec-side figcaption{font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-dim);margin-top:14px}
 .spec-main{padding:44px 46px}
+.spec-solo{grid-template-columns:1fr}
+.spec-solo .spec-main{max-width:780px}
 .spec-top{display:flex;justify-content:space-between;align-items:baseline;gap:18px;flex-wrap:wrap;margin-bottom:6px}
 .software-feats{list-style:none;margin:24px 0 30px;border-top:1px solid var(--hairline)}
 .software-feats li{font-size:.87rem;color:var(--ink-muted);padding:11px 0 11px 26px;border-bottom:1px solid var(--hairline);position:relative}
@@ -342,9 +344,9 @@ body::after{content:"";position:fixed;inset:0;background:linear-gradient(180deg,
 <section class="hero" id="inicio">
   <div class="container hero-grid">
     <div>
-      <span class="hero-over">Tecnologia · Ferramentas · Educação</span>
-      <h1 class="hero-title">Um ecossistema feito para <span class="gold">lucrar e escalar.</span></h1>
-      <p class="hero-sub">A <strong>KODAROS</strong> junta o que você usa no dia a dia: softwares, 8 e-books, 50+ ferramentas que rodam no navegador e um diagnóstico de 2 minutos para saber por onde começar.</p>
+      <span class="hero-over">Software · Sites · Vídeos</span>
+      <h1 class="hero-title">Uma empresa de tecnologia feita para <span class="gold">vender e escalar.</span></h1>
+      <p class="hero-sub">A <strong>KODAROS</strong> cria o que faz seu negócio vender: softwares e apps sob medida, sites que convertem, motion e vídeos publicitários — além de uma biblioteca de e-books e 50+ ferramentas para o dia a dia.</p>
       <div class="hero-ctas">
         <a class="btn btn-aurea" href="#diagnostico">Fazer meu diagnóstico <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
         <a class="btn-text" href="mailto:kodaros01@gmail.com?subject=Or%C3%A7amento%20%E2%80%94%20Software%20Sob%20Medida%20KODAROS&amp;body=Ol%C3%A1%2C%20equipe%20KODAROS!%0A%0AQuero%20um%20or%C3%A7amento%20para%20um%20software%20sob%20medida%20(uso%20pessoal%20%2F%20empresa).%0A%0ADescreva%20aqui%20sua%20ideia%2Fnecessidade%3A%0A%0A---%0AEnviado%20pela%20Plataforma%20KODAROS">Solicitar orçamento</a>
@@ -357,10 +359,8 @@ body::after{content:"";position:fixed;inset:0;background:linear-gradient(180deg,
       </div>
     </div>
     <aside class="ficha" aria-label="Ficha da plataforma">
-      <div class="ficha-head"><span>FICHA</span><span>KODAROS</span></div>
       <figure>
         <img src="./kodaros_icon.png" alt="Brasão KODAROS" width="320" height="320">
-        <figcaption>Brasão KODAROS</figcaption>
       </figure>
       <div class="ficha-name">KODAROS</div>
       <div class="hero-orcamento" role="note" aria-label="Orçamento de software sob medida">
@@ -398,11 +398,21 @@ body::after{content:"";position:fixed;inset:0;background:linear-gradient(180deg,
     <div class="section-head">
       <div class="rule-top"></div>
       <h2 class="section-title">Tudo em um só lugar</h2>
-      <p class="section-desc">Softwares, e-books, ferramentas e diagnóstico organizados para você achar rápido e usar na hora.</p>
+      <p class="section-desc">Softwares, sites, vídeos e e-books organizados para você achar rápido e usar na hora.</p>
     </div>
     <a class="stoa-row stoa-card" href="#softwares">
       
-      <span><span class="stoa-status">Disponível</span><h3>Softwares &amp; Sites</h3><p>O primeiro já está no ar: KodaGrid, o construtor de planilhas com fórmulas. Softwares de desktop pensados para você montar e escalar sem refazer tudo depois.</p></span>
+      <span><span class="stoa-status">Disponível</span><h3>Softwares &amp; Apps</h3><p>O primeiro já está no ar: KodaGrid, o construtor de planilhas com fórmulas. Programas de desktop e apps sob medida, pensados para você montar e escalar sem refazer tudo depois.</p></span>
+      <span class="stoa-go"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg></span>
+    </a>
+    <a class="stoa-row stoa-card" href="#sites">
+      
+      <span><span class="stoa-status">Sob encomenda</span><h3>Sites</h3><p>Sites e landing pages que convertem: rápidos, com identidade própria e prontos para vender seu produto ou serviço.</p></span>
+      <span class="stoa-go"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg></span>
+    </a>
+    <a class="stoa-row stoa-card" href="#videos">
+      
+      <span><span class="stoa-status">Sob encomenda</span><h3>Vídeos e Propagandas</h3><p>Motion graphics e vídeos publicitários para anúncios, redes e apresentações — do roteiro à entrega final.</p></span>
       <span class="stoa-go"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg></span>
     </a>
     <a class="stoa-row stoa-card" href="https://kelvinoliveiracode.github.io/kodarosferramentas/" target="_blank" rel="noopener">
@@ -422,9 +432,11 @@ body::after{content:"";position:fixed;inset:0;background:linear-gradient(180deg,
 <div class="tabs-bar" id="explorar">
   <div class="container">
     <div class="platform-tabs" role="tablist" aria-label="Conteúdos principais">
-      <button class="platform-tab" data-target="biblioteca" role="tab" aria-selected="false" aria-controls="panel-biblioteca" id="tab-biblioteca">Biblioteca <small>8 e-books</small></button>
+      <button class="platform-tab" data-target="softwares" role="tab" aria-selected="false" aria-controls="panel-softwares" id="tab-softwares">Softwares <small>desktop &amp; apps</small></button>
+      <button class="platform-tab" data-target="sites" role="tab" aria-selected="false" aria-controls="panel-sites" id="tab-sites">Sites <small>sob encomenda</small></button>
       <button class="platform-tab active" data-target="diagnostico" role="tab" aria-selected="true" aria-controls="panel-diagnostico" id="tab-diagnostico">Diagnóstico <small>2 min</small></button>
-      <button class="platform-tab" data-target="softwares" role="tab" aria-selected="false" aria-controls="panel-softwares" id="tab-softwares">Softwares <small>desktop</small></button>
+      <button class="platform-tab" data-target="videos" role="tab" aria-selected="false" aria-controls="panel-videos" id="tab-videos">Vídeos <small>e propagandas</small></button>
+      <button class="platform-tab" data-target="biblioteca" role="tab" aria-selected="false" aria-controls="panel-biblioteca" id="tab-biblioteca">Biblioteca <small>8 e-books</small></button>
     </div>
   </div>
 </div>
@@ -548,8 +560,8 @@ body::after{content:"";position:fixed;inset:0;background:linear-gradient(180deg,
   <div class="container">
     <div class="section-head">
       <div class="rule-top"></div>
-      <h2 class="section-title">Programas de desktop da KODAROS</h2>
-      <p class="section-desc">App desktop para Windows. Instala, abre e funciona offline — sem depender de nuvem.</p>
+      <h2 class="section-title">Softwares &amp; Apps</h2>
+      <p class="section-desc">Programas de desktop e apps sob medida. Instalam, abrem e funcionam — inclusive 100% offline no Windows, sem depender de nuvem.</p>
     </div>
     <article class="software-card spec">
       <figure class="spec-side">
@@ -577,7 +589,65 @@ body::after{content:"";position:fixed;inset:0;background:linear-gradient(180deg,
   </div>
 </section>
 
-<!-- FERRAMENTAS -->
+<!-- SITES -->
+<section class="section platform-panel" id="panel-sites" role="tabpanel" aria-labelledby="tab-sites" hidden>
+  <div class="container">
+    <div class="section-head">
+      <div class="rule-top"></div>
+      <h2 class="section-title">Sites que convertem</h2>
+      <p class="section-desc">Sites e landing pages sob encomenda: rápidos, com identidade própria e prontos para vender.</p>
+    </div>
+    <article class="software-card spec">
+      <figure class="spec-side" aria-label="Modelos de site">
+        <svg width="200" viewBox="0 0 200 120" role="img" aria-label="Modelo de landing page" style="display:block;margin:0 auto"><rect x="2" y="2" width="196" height="116" rx="6" fill="#141419" stroke="#3d3d48"/><rect x="2" y="2" width="196" height="17" fill="#1d1d24"/><circle cx="12" cy="10.5" r="2.6" fill="#D4AF6A"/><circle cx="20" cy="10.5" r="2.6" fill="#55565f"/><circle cx="28" cy="10.5" r="2.6" fill="#55565f"/><rect x="150" y="7" width="38" height="7" rx="3.5" fill="#D4AF6A"/><rect x="14" y="27" width="172" height="33" rx="3" fill="#23232c"/><rect x="24" y="35" width="88" height="6" rx="3" fill="#8a8a95"/><rect x="24" y="44" width="58" height="5" rx="2.5" fill="#55565f"/><rect x="140" y="38" width="36" height="13" rx="6.5" fill="#D4AF6A"/><rect x="14" y="66" width="54" height="42" rx="3" fill="#1d1d24" stroke="#3a3a42"/><rect x="14" y="66" width="54" height="10" rx="3" fill="#D4AF6A" opacity=".55"/><rect x="73" y="66" width="54" height="42" rx="3" fill="#1d1d24" stroke="#3a3a42"/><rect x="73" y="66" width="54" height="10" rx="3" fill="#D4AF6A" opacity=".55"/><rect x="132" y="66" width="54" height="42" rx="3" fill="#1d1d24" stroke="#3a3a42"/><rect x="132" y="66" width="54" height="10" rx="3" fill="#D4AF6A" opacity=".55"/></svg>
+        <p style="font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-dim);margin:8px 0 16px">Landing</p>
+        <svg width="200" viewBox="0 0 200 120" role="img" aria-label="Modelo de site institucional" style="display:block;margin:0 auto"><rect x="2" y="2" width="196" height="116" rx="6" fill="#141419" stroke="#3d3d48"/><rect x="2" y="2" width="196" height="17" fill="#1d1d24"/><circle cx="12" cy="10.5" r="2.6" fill="#D4AF6A"/><circle cx="20" cy="10.5" r="2.6" fill="#55565f"/><circle cx="28" cy="10.5" r="2.6" fill="#55565f"/><rect x="150" y="7" width="38" height="7" rx="3.5" fill="#55565f"/><rect x="14" y="27" width="172" height="24" rx="3" fill="#23232c"/><rect x="24" y="36" width="72" height="6" rx="3" fill="#D4AF6A" opacity=".8"/><rect x="24" y="58" width="80" height="5" rx="2.5" fill="#8a8a95"/><rect x="24" y="67" width="80" height="5" rx="2.5" fill="#55565f"/><rect x="24" y="76" width="56" height="5" rx="2.5" fill="#55565f"/><rect x="112" y="58" width="74" height="42" rx="3" fill="#1d1d24" stroke="#D4AF6A" stroke-opacity=".6"/><rect x="14" y="106" width="172" height="6" rx="3" fill="#1d1d24"/></svg>
+        <p style="font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-dim);margin:8px 0 16px">Institucional</p>
+        <svg width="200" viewBox="0 0 200 120" role="img" aria-label="Modelo de portfólio" style="display:block;margin:0 auto"><rect x="2" y="2" width="196" height="116" rx="6" fill="#141419" stroke="#3d3d48"/><rect x="2" y="2" width="196" height="17" fill="#1d1d24"/><circle cx="12" cy="10.5" r="2.6" fill="#D4AF6A"/><circle cx="20" cy="10.5" r="2.6" fill="#55565f"/><circle cx="28" cy="10.5" r="2.6" fill="#55565f"/><rect x="70" y="26" width="60" height="6" rx="3" fill="#8a8a95"/><rect x="14" y="38" width="84" height="32" rx="3" fill="#23232c"/><rect x="102" y="38" width="84" height="32" rx="3" fill="#23232c" stroke="#D4AF6A" stroke-opacity=".6"/><rect x="14" y="74" width="84" height="32" rx="3" fill="#23232c"/><rect x="102" y="74" width="84" height="32" rx="3" fill="#23232c"/></svg>
+        <p style="font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-dim);margin:8px 0 0">Portfólio</p>
+      </figure>
+      <div class="spec-main">
+        <h3 class="lib-title">Site sob medida KODAROS</h3>
+        <p class="lib-sub">Do layout ao ar: página institucional, landing de vendas ou portfólio — otimizado para celular e buscadores.</p>
+        <ul class="sw-feats">
+          <li><strong>Identidade própria.</strong> Visual exclusivo, sem cara de template.</li>
+          <li><strong>Rápido e otimizado.</strong> Carregamento leve, SEO básico e tags sociais inclusos.</li>
+          <li><strong>Pronto para vender.</strong> Botões de contato, catálogo e integração com WhatsApp e pagamentos.</li>
+        </ul>
+        <div class="buy-row">
+          <a class="btn-buy" href="mailto:kodaros01@gmail.com?subject=Or%C3%A7amento%20%E2%80%94%20Site%20KODAROS&body=Ol%C3%A1%2C%20equipe%20KODAROS!%0A%0AQuero%20um%20or%C3%A7amento%20para%20um%20site.%0A%0ATipo%20(institucional%20%2F%20landing%20%2F%20portf%C3%B3lio)%3A%0ARefer%C3%AAncias%3A%0A">Pedir orçamento de site</a>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- VÍDEOS -->
+<section class="section platform-panel" id="panel-videos" role="tabpanel" aria-labelledby="tab-videos" hidden>
+  <div class="container">
+    <div class="section-head">
+      <div class="rule-top"></div>
+      <h2 class="section-title">Vídeos e Propagandas</h2>
+      <p class="section-desc">Motion graphics e vídeos publicitários para anúncios, redes e apresentações — do roteiro à entrega.</p>
+    </div>
+    <article class="software-card spec spec-solo">
+      <div class="spec-main">
+        <h3 class="lib-title">Vídeo publicitário KODAROS</h3>
+        <p class="lib-sub">Criativo pronto para veicular: anúncio, reels, apresentação de produto ou institucional curto.</p>
+        <ul class="sw-feats">
+          <li><strong>Roteiro incluso.</strong> Gancho, mensagem e chamada para ação pensados para o seu público.</li>
+          <li><strong>Motion e narração.</strong> Animação, trilha e locução profissional sob medida.</li>
+          <li><strong>Formatos para cada canal.</strong> Entrega em vertical, quadrado e horizontal, pronta para anunciar.</li>
+        </ul>
+        <div class="buy-row">
+          <a class="btn-buy" href="mailto:kodaros01@gmail.com?subject=Or%C3%A7amento%20%E2%80%94%20V%C3%ADdeo%20KODAROS&body=Ol%C3%A1%2C%20equipe%20KODAROS!%0A%0AQuero%20um%20or%C3%A7amento%20para%20um%20v%C3%ADdeo.%0A%0ATipo%20(an%C3%BAncio%20%2F%20reels%20%2F%20institucional)%3A%0ADura%C3%A7%C3%A3o%20desejada%3A%0ARefer%C3%AAncias%3A%0A">Pedir orçamento de vídeo</a>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- FERRAMENTAS (PWA) -->
 <section class="section" id="ferramentas">
   <div class="container">
     <div class="panel-dark">
@@ -654,7 +724,7 @@ body::after{content:"";position:fixed;inset:0;background:linear-gradient(180deg,
 <footer class="footer">
   <div class="container">
     <a class="footer-banner" href="#inicio" aria-label="KODAROS — voltar ao início"><img src="./banner.png" alt="KODAROS" height="84"></a>
-    <p class="footer-tag">Software, ferramentas e conteúdo para quem toca negócio de verdade.</p>
+    <p class="footer-tag">Softwares, sites, vídeos e conteúdo para quem toca negócio de verdade.</p>
     <nav class="footer-lines" aria-label="Mapa do site">
       <a href="#inicio">Início</a><span class="sep">·</span>
       <a href="#ecossistema">Ecossistema</a><span class="sep">·</span>
