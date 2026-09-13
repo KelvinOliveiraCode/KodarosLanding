@@ -417,7 +417,7 @@ document.addEventListener('DOMContentLoaded', function() {
             desc: "O sistema operacional de tráfego pago e funis da KODAROS. Framework A.P.E.R.T.O., 3 calculadoras e checklists.",
             old: "R$ 247,00", now: "R$ 197,00",
             cover: COVER_BASE + "arquitetura-capa.png",
-            url: "https://kelvinoliveiracode.github.io/site-Arquitetura-de-Aquisicao/?utm_source=funil&utm_medium=quiz&utm_campaign=diagnostico"
+            url: "https://pay.hotmart.com/B107295159O?utm_source=funil&utm_medium=quiz&utm_campaign=diagnostico"
         }
     };
 
